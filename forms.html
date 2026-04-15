@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Fields</legend>
+            <div>
+        <label for="fname">Full Name:</label>
+        <input type="text" name="fullname">
+</div><br>
+<div>
+       <label for="email">Email:</label> 
+    <input type="email">
+       
+        </div> <br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number">
+        </div><br>
+        <div>
+            <p> Gender</p>
+            <label for="male">Male</label>
+            <input type="radio"value="male" name="gender">
+            
+            <span><input type="radio"name ="gender">
+                <label for="female">Female</label>
+           
+            </span>
+        </div><br>
+        <div>
+            <p>Document Submitted:</p>
+            <label for="admission letter">Admission letter</label>
+            <input type="checkbox" id="admission letter" name="documents">
+            <label for="Payment">Payment Receipt</label>
+            <input type="checkbox">
+        </div><br>
+        <div>
+            <label for="faculty">Faculty</label>
+            <select name="faculty" id="faculty" required>
+                <option value="">Select faculty</option>
+                <option value="computing">Computing</option>
+                <option value="engineering">Engineering</option>
+                <option value="business">Business</option>
+                <option value="education">Education</option>
+            </select>
+        </div><br>
+        </fieldset>
+    </form>
+</body>
+</html>
