@@ -1,0 +1,44 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 114px;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0px 20px;
+    
+    
+}
+.brandName{
+    font-size: 24px;
+   line-height:36px;
+   letter-spacing: -0.24px;
+   color: #A1A1A1;
+   font-weight: bold;
+
+}
+.buttonDiv{
+    gap: 20px;
+    display: flex;
+}
+.buttonDiv button{
+background-color: #FF5733;
+border-radius: 6px;
+width: 108.47;
+height: 44;
+color: #FFFFFF;
+opacity: 100%;
+border: 1px solid;
+border-color:#FF5733 ;
+}
+.buttonDiv a{
+    color: inherit;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    text-decoration: none;
+}

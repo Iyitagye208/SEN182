@@ -1,0 +1,29 @@
+*{
+    margin: 2%;
+
+}
+@import url("navigation.css"); 
+h1{
+display: flex;
+font-weight: lighter;
+}
+.card{
+    align-content: center;
+    background-color: lightblue;
+}
+#St-name{
+    margin-right: 50px;
+    padding: 10px;
+   
+}
+.f-info label{
+    font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    background-color: lightskyblue;
+    color: beige;
+    border: 70px;
+    border-radius: 2px;
+
+}
